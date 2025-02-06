@@ -1,3 +1,10 @@
+variable "environment" {    # create varibles.tf
+  type    = string
+  default = "dev"
+}
+
+
+
 provider "aws" {
   region = "ap-south-2"
 }
